@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Fingerabdruck
+comment0.text=\n\ Diese\ Klasse\ dient\ zum\ Generieren\ von\ Fingerabdruecken\ aus\ Dateien.\n\n\ @author\ Fredrik\ Winkler\n\ @version\ 16.\ Dezember\ 2014\n
+comment1.params=file
+comment1.target=java.lang.String\ aus(java.io.File)
+comment1.text=\n\ Generiert\ aus\ dem\ Inhalt\ einer\ Datei\ einen\ Fingerabdruck.\n\ Genau\ wie\ bei\ Menschen\ ist\ es\ extrem\ unwahrscheinlich,\n\ dass\ inhaltsverschiedene\ Dateien\ denselben\ Fingerabdruck\ haben.\n\ \n\ @param\ file\ die\ einzulesende\ Datei\n\ @return\ der\ Fingerabdruck,\ sofern\ alles\ klappt,\ ansonsten\ der\ Dateiname\ \n
+comment2.params=bytes
+comment2.target=java.lang.String\ asHexString(byte[])
+comment2.text=\n\ Wandelt\ ein\ Byte-Array\ in\ einen\ hexadezimalen\ String\ um.\n\ Arrays\ sind\ Sammlungen\ fester\ Groesse,\n\ die\ erst\ spaeter\ in\ der\ Vorlesung\ drankommen\ werden.\n
+numComments=3

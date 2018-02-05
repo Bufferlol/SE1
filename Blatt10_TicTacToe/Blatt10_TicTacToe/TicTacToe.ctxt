@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=TicTacToe
+comment0.text=\r\n\ In\ dieser\ Klasse\ ist\ die\ Spiellogik\ von\ Tic\ Tac\ Toe\ realisiert.\r\n\ \r\n\ Zwei\ Spieler\ spielen\ auf\ einem\ Spielfeld\ der\ Groesse\ 3x3\ \=\ 9\ Positionen.\ Die\ Spieler\r\n\ besetzen\ abwechselnd\ Positionen\ auf\ dem\ Spielfeld,\ bis\ ein\ Spieler\ drei\ Positionen\ in\ einer\r\n\ Reihe\ besetzt\ hat\ oder\ das\ Spielfeld\ voll\ ist.\r\n\ \r\n\ @author\ Fredrik\ Winkler\r\n\ @author\ Axel\ Schmolitzky\r\n\ @author\ Petra\ Becker-Pechau\r\n\ @version\ 3.\ Januar\ 2015\r\n
+comment1.params=
+comment1.target=TicTacToe()
+comment1.text=\r\n\ Erzeugt\ ein\ neues\ Tic\ Tac\ Toe\ Spiel\ mit\ einem\ leeren\ Spielfeld.\ Spieler\ 1\ ist\ als\ erster\r\n\ dran,\ und\ das\ Spiel\ ist\ noch\ nicht\ zu\ Ende.\r\n
+comment10.params=
+comment10.target=boolean\ hatAktuellerSpielerGewonnen()
+comment10.text=\r\n\ @return\ true,\ falls\ der\ aktuelle\ Spieler\ eine\ der\ acht\ moeglichen\ Gewinnsituationen\r\n\ \ \ \ \ \ \ \ \ erreicht\ hat.\r\n
+comment2.params=
+comment2.target=int\ gibAktuellenSpieler()
+comment2.text=\r\n\ Gibt\ an,\ welcher\ Spieler\ gerade\ dran\ ist\ oder\ gewonnen\ hat.\r\n\ \r\n\ @return\ 1\ (Spieler\ 1)\ oder\ 2\ (Spieler\ 2)\ oder\ 0\ (Spiel\ ist\ unentschieden\ ausgegangen)\r\n
+comment3.params=
+comment3.target=void\ wechsleSpieler()
+comment3.text=\r\n\ Wechselt\ den\ aktuellen\ Spieler\ von\ 1\ zu\ 2\ und\ umgekehrt.\r\n
+comment4.params=
+comment4.target=boolean\ istSpielZuEnde()
+comment4.text=\r\n\ Gibt\ an,\ ob\ das\ Spiel\ zu\ Ende\ ist.\ Falls\ es\ zu\ Ende\ ist,\ liefert\ gibAktuellenSpieler()\r\n\ den\ Gewinner.\r\n
+comment5.params=position
+comment5.target=int\ gibBesitzer(int)
+comment5.text=\r\n\ Gibt\ den\ Besitzer\ der\ angegebenen\ Position\ auf\ dem\ Spielfeld.\r\n\ \r\n\ @param\ position\ 0..8\r\n\ @return\ 0\ (unbesetzt),\ 1\ (Spieler\ 1),\ 2\ (Spieler\ 2)\r\n
+comment6.params=position
+comment6.target=boolean\ istFrei(int)
+comment6.text=\r\n\ Ist\ das\ Spielfeld\ an\ der\ angegebenen\ Position\ noch\ frei?\r\n\ \r\n\ @param\ position\ 0..8\r\n
+comment7.params=position
+comment7.target=void\ besetzePosition(int)
+comment7.text=\r\n\ Besetzt\ eine\ Position\ auf\ dem\ Spielfeld\ fuer\ den\ aktuellen\ Spieler.\ Anschliessend\ wird\r\n\ geprueft,\ ob\ der\ aktuelle\ Spieler\ gewonnen\ hat,\ oder\ ob\ das\ Spielfeld\ voll\ ist.\r\n\ Ansonsten\ wird\ der\ aktuelle\ Spieler\ gewechselt.\r\n\ \r\n\ @param\ position\ 0..8\r\n
+comment8.params=position
+comment8.target=boolean\ aktuellerSpielerBesitzt(int)
+comment8.text=\r\n\ @param\ position\ 0..8\r\n\ \r\n\ @return\ true,\ falls\ der\ aktuelle\ Spieler\ an\ der\ uebergebenen\ Position\ das\ Spielfeld\r\n\ \ \ \ \ \ \ \ \ besetzt\ hat.\r\n
+comment9.params=position1\ position2\ position3
+comment9.target=boolean\ aktuellerSpielerBesitzt(int,\ int,\ int)
+comment9.text=\r\n\ Diese\ Methode\ ueberprueft,\ ob\ der\ aktuelle\ Spieler\r\n\ an\ allen\ drei\ uebergebenen\ Positionen\ p1,\ p2\ und\ p3\ das\ Spielfeld\ besetzt\ hat.\r\n\ \r\n\ @param\ position1\ 0..8\r\n\ @param\ position2\ 0..8\r\n\ @param\ position3\ 0..8\r\n\ \r\n\ @return\ true,\ wenn\ der\ aktuelle\ Spieler\ alle\ drei\ spezifizierten\r\n\ \ \ \ \ \ \ \ \ Positionen\ besetzt,\ sonst\ false.\r\n
+numComments=11

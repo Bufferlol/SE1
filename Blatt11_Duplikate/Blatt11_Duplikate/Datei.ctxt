@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Datei
+comment0.text=\r\n\ Exemplare\ dieser\ Klasse\ repraesentieren\ Dateien\ im\ Dateisystem.\r\n\ Ihr\ Zweck\ liegt\ darin,\ das\ Auffinden\ von\ Duplikaten\ zu\ erleichtern.\r\n\ \ \r\n\ @author\ Fredrik\ Winkler\r\n\ @version\ 16.\ Dezember\ 2014\r\n
+comment1.params=file
+comment1.target=Datei(java.io.File)
+comment1.text=\r\n\ Initialisiert\ eine\ neue\ Datei\ und\ merkt\ sich\ deren\ Groesse.\r\n\ \r\n\ @param\ file\ das\ einzulesende\ File\r\n
+comment2.params=obj
+comment2.target=boolean\ equals(java.lang.Object)
+comment2.text=\r\n\ Wann\ gelten\ zwei\ Exemplare\ dieser\ Klasse\ als\ gleich?\r\n
+comment3.params=
+comment3.target=int\ hashCode()
+comment3.text=\r\n\ Wie\ wird\ der\ hashCode\ berechnet?\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Liefert\ den\ Dateinamen\ und\ den\ Fingerabdruck\ als\ String\ zurueck.\r\n\ \r\n\ @return\ String\ im\ Format\ "DATEINAME\ (FINGERABDRUCK)"\r\n
+comment5.params=
+comment5.target=java.lang.String\ fingerabdruck()
+comment5.text=\r\n\ Liefert\ den\ Fingerabdruck.\ Da\ der\ Fingerabdruck\ nur\ bei\ Bedarf\ generiert\ wird,\r\n\ kann\ der\ erste\ Aufruf\ dieser\ Methode\ u.U.\ recht\ lange\ dauern.\r\n\ \r\n\ @return\ der\ Fingerabdruck\r\n
+numComments=6

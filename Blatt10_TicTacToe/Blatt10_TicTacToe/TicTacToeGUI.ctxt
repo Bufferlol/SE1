@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TicTacToeGUI
+comment0.text=\r\n\ Eine\ einfache\ grafische\ Oberflaeche\ fuer\ das\ Spiel\ Tic\ Tac\ Toe.\r\n\ \r\n\ @author\ Fredrik\ Winkler\r\n\ @version\ 3.\ Januar\ 2015\r\n
+comment1.params=
+comment1.target=TicTacToeGUI()
+comment2.params=
+comment2.target=void\ refreshGrid()
+comment3.params=
+comment3.target=void\ refreshTitle()
+comment4.params=
+comment4.target=void\ refresh()
+numComments=5

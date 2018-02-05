@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=VierGewinnt
+comment0.text=\r\n\ In\ dieser\ Klasse\ ist\ die\ Spiellogik\ von\ "Vier\ gewinnt"\ realisiert.\r\n\ \r\n\ Zwei\ Spieler\ legen\ abwechselnd\ einen\ Spielstein\ in\ einer\ freien\ Spalte\ ab,\ bis\ ein\ Spieler\ vier\r\n\ Steine\ in\ einer\ Reihe\ hat\ oder\ das\ Spielfeld\ voll\ ist.\r\n\ \r\n\ @author\ Fredrik\ Winkler\r\n\ @version\ 4.\ Januar\ 2007\r\n
+comment1.params=
+comment1.target=VierGewinnt()
+comment1.text=\r\n\ Erzeugt\ ein\ neues\ Vier-Gewinnt-Spiel\ mit\ einem\ leeren\ Spielfeld.\ Spieler\ 1\ ist\ als\ erster\r\n\ dran,\ und\ das\ Spiel\ ist\ noch\ nicht\ zu\ Ende.\r\n
+comment2.params=
+comment2.target=int\ gibAktuellenSpieler()
+comment2.text=\r\n\ Gibt\ an,\ welcher\ Spieler\ gerade\ dran\ ist\ oder\ gewonnen\ hat.\r\n\ \r\n\ @return\ 1\ (Spieler\ 1)\ oder\ 2\ (Spieler\ 2)\ oder\ 0\ (Spiel\ ist\ unentschieden\ ausgegangen)\r\n
+comment3.params=
+comment3.target=void\ wechsleSpieler()
+comment3.text=\r\n\ Wechselt\ den\ aktuellen\ Spieler\ von\ 1\ zu\ 2\ und\ umgekehrt.\r\n
+comment4.params=
+comment4.target=boolean\ istSpielZuEnde()
+comment4.text=\r\n\ Gibt\ an,\ ob\ das\ Spiel\ zu\ Ende\ ist.\ Falls\ es\ zu\ Ende\ ist,\ liefert\ gibAktuellenSpieler()\ den\r\n\ Gewinner.\r\n
+comment5.params=zeile\ spalte
+comment5.target=int\ gibBesitzer(int,\ int)
+comment5.text=\r\n\ Gibt\ den\ Besitzer\ der\ angegebenen\ Position\ auf\ dem\ Spielfeld.\r\n\ \r\n\ @param\ zeile\r\n\ \ \ \ \ \ \ \ \ \ \ \ vertikale\ Position\r\n\ @param\ spalte\r\n\ \ \ \ \ \ \ \ \ \ \ \ horizontale\ Position\r\n\ @return\ 0\ (unbesetzt),\ 1\ (Spieler\ 1),\ 2\ (Spieler\ 2)\r\n
+comment6.params=spalte
+comment6.target=boolean\ istSpalteVoll(int)
+comment6.text=\r\n\ Ist\ die\ angegebene\ Spalte\ voll?\r\n
+comment7.params=spalte
+comment7.target=void\ legeSpielsteinAb(int)
+comment7.text=\r\n\ Legt\ einen\ Spielstein\ in\ einer\ Spalte\ ab.\ Anschliessend\ wird\ geprueft,\ ob\ der\ aktuelle\r\n\ Spieler\ gewonnen\ hat,\ oder\ ob\ das\ Spielfeld\ voll\ ist.\ Ansonsten\ wird\ der\ aktuelle\ Spieler\r\n\ gewechselt.\r\n\ \r\n\ @param\ spalte\r\n\ \ \ \ \ \ \ \ \ \ \ \ horizontale\ Position\r\n
+numComments=8

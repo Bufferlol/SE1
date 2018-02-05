@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Spielfeld
+comment0.text=\r\n\ Ein\ Spielfeld\ besteht\ aus\ neun\ Positionen.\ Man\ kann\ an\ den\ neun\ Positionen\r\n\ einen\ der\ beiden\ Spieler\ als\ Besitzer\ eintragen\ und\ auslesen.\r\n\ \r\n\ @author\ Fredrik\ Winkler\r\n\ @author\ Axel\ Schmolitzky\r\n\ @author\ Petra\ Becker-Pechau\r\n\ @version\ 3.\ Januar\ 2015\r\n
+comment1.params=position
+comment1.target=int\ gibBesitzer(int)
+comment1.text=\r\n\ Gibt\ den\ Besitzer\ der\ angegebenen\ Position\ auf\ dem\ Spielfeld.\r\n\ \r\n\ @param\ position\ 0..8\r\n\ @return\ 0\ (unbesetzt),\ 1\ (Spieler\ 1),\ 2\ (Spieler\ 2)\r\n
+comment2.params=position\ spieler
+comment2.target=void\ besetzePosition(int,\ int)
+comment2.text=\r\n\ Besetzt\ die\ angegebene\ Position\ auf\ dem\ Spielfeld\ fuer\ einen\ Spieler.\r\n\ \r\n\ @param\ position\ 0..8\r\n\ @param\ spieler\ 1\ (Spieler\ 1),\ 2\ (Spieler\ 2)\r\n
+comment3.params=
+comment3.target=boolean\ istVoll()
+comment3.text=\r\n\ Gibt\ an,\ ob\ das\ Spielfeld\ an\ allen\ Positionen\ belegt\ ist.\r\n
+numComments=4

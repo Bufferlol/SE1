@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DateiVerarbeiter
+comment0.text=\n\ Ein\ DateiVerarbeiter\ verarbeitet\ eine\ Datei.\n\ \n\ @author\ Fredrik\ Winkler\n\ @version\ 16.\ Dezember\ 2014\n
+comment1.params=datei
+comment1.target=void\ verarbeite(java.io.File)
+comment1.text=\n\ Diese\ Methode\ wird\ vom\ VerzeichnisWanderer\ fuer\ jede\ Datei\ aufgerufen.\n\ Was\ konkret\ mit\ jeder\ einzelnen\ Datei\ passiert,\ legen\ die\ implementierenden\ Klassen\ fest.\n\n\ @param\ datei\ die\ datei,\ die\ verarbeitet\ werden\ soll\n
+numComments=2

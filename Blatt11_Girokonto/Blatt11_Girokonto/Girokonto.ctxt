@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Girokonto
+comment0.text=\r\n\ Ein\ einfaches\ Girokonto\ fuer\ ganzzahlige\ Betraege.\r\n\ Es\ kann\ abgehoben\ und\ eingezahlt\ werden.\ Ein\ Girokonto\ kann\r\n\ nur\ bis\ zu\ einem\ Dispo-Limit\ ueberzogen\ werden.\r\n\ Dieses\ Dispo-Limit\ kann\ veraendert\ werden.\ Als\ Dispo-Limit\r\n\ sind\ nur\ positive\ Werte\ erlaubt.\r\n\ \r\n\ @author\ Martti\ Jeenicke\r\n\ @author\ Axel\ Schmolitzky\r\n\ @author\ Petra\ Becker-Pechau\r\n\ @version\ WiSe\ 2013\r\n
+comment1.params=
+comment1.target=Girokonto()
+comment1.text=\r\n\ Ein\ neues\ Konto\ hat\ einen\ Anfangssaldo\ und\ ein\ Dispo-Limit\ von\ 0.\r\n
+comment2.params=
+comment2.target=int\ gibDispoLimit()
+comment2.text=\r\n\ Liefert\ das\ Dispo-Limit\ dieses\ Kontos.\r\n\ \r\n\ @return\ das\ Dispo-Limit\r\n
+comment3.params=dispoLimit
+comment3.target=void\ setzeDispoLimit(int)
+comment3.text=\r\n\ Setze\ das\ Dispo-Limit\ auf\ den\ gegebenen\ Wert.\r\n\ \r\n\ @param\ dispoLimit\ ein\ nicht-negativer\ Wert\ als\ neues\ Dispo-Limit\r\n
+comment4.params=betrag
+comment4.target=void\ zahleEin(int)
+comment4.text=\r\n\ Zahlt\ einen\ Betrag\ auf\ das\ Konto\ ein.\r\n\ \r\n\ @param\ betrag\r\n\ \ \ \ \ \ \ \ \ \ \ \ der\ einzuzahlende\ Betrag\r\n
+comment5.params=betrag
+comment5.target=void\ hebeAb(int)
+comment5.text=\r\n\ Hebt\ einen\ Betrag\ vom\ Konto\ ab.\r\n\ \r\n\ @param\ betrag\r\n\ \ \ \ \ \ \ \ \ \ \ \ der\ abzuhebende\ Betrag\r\n
+comment6.params=
+comment6.target=int\ gibSaldo()
+comment6.text=\r\n\ Liefert\ den\ Saldo\ des\ Kontos.\r\n\ \r\n\ @param\ das\ Saldo\r\n
+comment7.params=
+comment7.target=void\ druckeKontobewegungen()
+comment7.text=\r\n\ Liefert\ die\ Umsaetze.\r\n\ \r\n
+numComments=8

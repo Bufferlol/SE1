@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Spielfeld
+comment0.text=\r\n\ Ein\ Spielfeld\ besteht\ aus\ mehreren\ gleich\ hohen\ Spalten,\ in\ denen\ \r\n\ man\ Spielsteine\ ablegen\ kann.\r\n\ \r\n\ Das\ Spielfeld\ geht\ davon\ aus,\ dass\ es\ genau\ zwei\ Spieler\ gibt,\ Spieler\ 1\ und\ \r\n\ Spieler\ 2.\ Ein\ unbesetztes\ Feld\ wird\ mit\ dem\ Wert\ 0\ markiert.\r\n\ \r\n\ Das\ Spielfeld\ hat\ 7\ Spalten,\ in\ die\ man\ jeweils\ maximal\ 6\ Steine\ werfen\ kann.\r\n\ Die\ Zeilen\ werden\ von\ unten\ gezaehlt,\ d.h.\ die\ unterste\ Zeile\ hat\ die\ Nummer\ 0.\r\n\ \r\n\ @author\ Fredrik\ Winkler\r\n\ @author\ Petra\ Becker-Pechau\r\n\ @version\ 4.\ Januar\ 2016\r\n
+comment1.params=spalte
+comment1.target=boolean\ istSpalteVoll(int)
+comment1.text=\r\n\ Gibt\ an,\ ob\ die\ Spalte\ voll\ ist.\r\n
+comment2.params=
+comment2.target=boolean\ istSpielfeldVoll()
+comment2.text=\r\n\ Gibt\ an,\ ob\ das\ Spielfeld\ voll\ ist.\r\n
+comment3.params=zeile\ spalte
+comment3.target=int\ gibBesitzer(int,\ int)
+comment3.text=\r\n\ Gibt\ den\ Besitzer\ der\ angegebenen\ Position\ auf\ dem\ Spielfeld.\r\n\ \r\n\ @param\ zeile\r\n\ \ \ \ \ \ \ \ \ \ \ \ vertikale\ Position\r\n\ @param\ spalte\r\n\ \ \ \ \ \ \ \ \ \ \ \ horizontale\ Position\r\n\ @return\ 0\ (unbesetzt),\ 1\ (Spieler\ 1),\ 2\ (Spieler\ 2)\r\n
+comment4.params=spalte\ spieler
+comment4.target=void\ legeSpielsteinAb(int,\ int)
+comment4.text=\r\n\ Legt\ einen\ Spielstein\ in\ einer\ Spalte\ ab.\r\n\ \r\n\ @param\ spalte\r\n\ \ \ \ \ \ \ \ \ \ \ \ die\ Spalte\r\n\ @param\ spieler\r\n\ \ \ \ \ \ \ \ \ \ \ \ 1\ (Spieler\ 1),\ 2\ (Spieler\ 2)\r\n
+numComments=5

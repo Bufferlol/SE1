@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=BildEinleser
+comment0.text=\n\ Eine\ Klasse\ zum\ Einlesen\ von\ Bilddaten.\n\ \n\ @author\ Bruce\ Quig\n\ @author\ Michael\ Koelling\n\ @author\ Axel\ Schmolitzky\n\ @author\ Fredrik\ Winkler\n\ @version\ 20.\ Dezember\ 2011\n
+comment1.params=
+comment1.target=short[][]\ liesBilddaten()
+comment1.text=\n\ Lies\ eine\ GIF-Datei\ ein\ und\ liefere\ die\ Bilddaten\ als\ Array.\ Die\ Datei\ wird\ interaktiv\ vom\n\ Benutzer\ gewaehlt.\n
+comment2.params=dateiname
+comment2.target=short[][]\ liesBilddaten(java.lang.String)
+comment2.text=\n\ Lies\ eine\ GIF-Datei\ ein\ und\ liefere\ die\ Bilddaten\ als\ Array.\ Der\ Name\ der\ Datei\ wird\ im\n\ CLASSPATH\ gesucht,\ unter\ anderem\ auch\ im\ Projekt-Verzeichnis.\n
+comment3.params=image
+comment3.target=java.awt.image.BufferedImage\ toBufferedImage(java.awt.Image)
+comment4.params=image
+comment4.target=short[][]\ toByteArray(java.awt.image.BufferedImage)
+numComments=5

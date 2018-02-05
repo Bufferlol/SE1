@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=VierGewinntGUI
+comment0.text=\r\n\ Klasse\ nicht\ zum\ Aneignen\ von\ OO-Konzepten\ gedacht,\ da\ hier\ fuer\r\n\ die\ Uebersichtlichkeit\ des\ Gesamtprojekts\ aller\ UI-Code\ vereinigt\ ist.\r\n\ \r\n\ Deswegen\ nicht\ kommentiert.\r\n\ \r\n\ @author\ Fredrik\ Winkler\r\n\ @version\ 17.\ Dezember\ 2012\r\n
+comment1.params=
+comment1.target=VierGewinntGUI()
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ neuesSpiel()
+numComments=4

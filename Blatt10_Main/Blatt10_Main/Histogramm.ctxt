@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Histogramm
+comment0.text=\r\n\ Ein\ einfaches\ Programm,\ das\ den\ Umgang\ mit\ Arrays\ und\ statische\ Methoden\ demonstriert.\r\n\ Das\ Programm\ kann\ ueber\ die\ Konsole\ gestartet\ und\ mit\ Argumenten\ gefuettert\ werden\:\r\n\ \r\n\ java\ Histogramm\ Hallo\ Welt\r\n\ \r\n\ @author\ Fredrik\ Winkler\r\n\ @version\ 6.\ Januar\ 2015\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=s
+comment2.target=void\ analysiere(java.lang.String)
+comment2.text=\r\n\ Erhoeht\ die\ Zaehler\ fuer\ die\ im\ uebergebenen\ String\ enthaltenen\ Buchstaben.\r\n\ \r\n\ @param\ s\ der\ String,\ von\ dem\ wir\ herausfinden\ wollen,\ wie\ oft\ welche\ Buchstaben\ vorkommen\r\n
+comment3.params=x
+comment3.target=int\ stelleImAlphabet(char)
+comment3.text=\r\n\ Berechnet,\ an\ welcher\ Stelle\ im\ Alphabet\ des\ uebergebene\ Zeichen\ liegt.\r\n\ A\ liegt\ an\ Position\ 0,\ und\ Z\ liegt\ an\ Position\ 25.\r\n\ Falls\ das\ uebergebene\ Zeichen\ kein\ Buchstabe\ ist,\ wird\ -1\ geliefert.\r\n\ \r\n\ @param\ x\ das\ Zeichen,\ das\ \u00FCbergeben\ wird\r\n
+comment4.params=
+comment4.target=void\ zeigeVerteilung()
+comment4.text=\r\n\ Schreibt\ die\ Verteilung\ auf\ die\ Konsole.\r\n
+numComments=5

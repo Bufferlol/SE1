@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=SpielfeldArray
+comment0.text=\r\n\ Erstellt\ ein\ Array\ f\u00FCr\ das\ Spielfeld\r\n\ \r\n
+comment1.params=
+comment1.target=SpielfeldArray()
+comment2.params=
+comment2.target=boolean\ istSpielfeldVoll()
+comment2.text=\r\n\ Gibt\ an,\ ob\ das\ Spielfeld\ voll\ ist.\r\n
+comment3.params=spalte
+comment3.target=boolean\ istSpalteVoll(int)
+comment3.text=\r\n\ Gibt\ an,\ ob\ die\ Spalte\ voll\ ist.\r\n
+comment4.params=zeile\ spalte
+comment4.target=int\ gibBesitzer(int,\ int)
+comment4.text=\r\n\ Gibt\ den\ Besitzer\ der\ angegebenen\ Position\ auf\ dem\ Spielfeld.\r\n\ \r\n\ @param\ zeile\r\n\ \ \ \ \ \ \ \ \ \ \ \ vertikale\ Position\r\n\ @param\ spalte\r\n\ \ \ \ \ \ \ \ \ \ \ \ horizontale\ Position\r\n\ @return\ 0\ (unbesetzt),\ 1\ (Spieler\ 1),\ 2\ (Spieler\ 2)\r\n
+comment5.params=spalte\ spieler
+comment5.target=void\ legeSpielsteinAb(int,\ int)
+comment5.text=\r\n\ Legt\ einen\ Spielstein\ in\ einer\ Spalte\ ab.\r\n\ \r\n\ @param\ spalte\r\n\ \ \ \ \ \ \ \ \ \ \ \ die\ Spalte\r\n\ @param\ spieler\r\n\ \ \ \ \ \ \ \ \ \ \ \ 1\ (Spieler\ 1),\ 2\ (Spieler\ 2)\r\n
+numComments=6

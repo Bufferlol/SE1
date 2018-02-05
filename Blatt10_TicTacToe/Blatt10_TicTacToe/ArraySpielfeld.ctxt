@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ArraySpielfeld
+comment0.text=\r\n\ Erstellt\ ein\ Array\ f\u00FCr\ das\ Spielfeld.\r\n\ \r\n
+comment1.params=
+comment1.target=ArraySpielfeld()
+comment1.text=\r\n\ Dem\ Array\ _feld\ wird\ ein\ neues\ Array\ mit\ der\ L\u00E4nge\ 9\ zugewiesen\r\n
+comment2.params=position
+comment2.target=int\ gibBesitzer(int)
+comment2.text=\r\n\ Gibt\ den\ Besitzer\ der\ angegebenen\ Position\ auf\ dem\ Spielfeld.\r\n\ \r\n\ Hier\ wird\ der\ Spieler\ an\ der\ Position\ aus\ dem\ Array\ gelesen\r\n\ \r\n\ @param\ position\ 0..8\r\n\ @return\ 0\ (unbesetzt),\ 1\ (Spieler\ 1),\ 2\ (Spieler\ 2)\r\n
+comment3.params=position\ spieler
+comment3.target=void\ besetzePosition(int,\ int)
+comment3.text=\r\n\ Besetzt\ die\ angegebene\ Position\ auf\ dem\ Spielfeld\ fuer\ einen\ Spieler.\r\n\ \r\n\ Hier\ wird\ der\ Spieler\ an\ der\ angegebenen\ Position\ festgelegt\r\n\ \r\n\ @param\ position\ 0..8\r\n\ @param\ spieler\ 1\ (Spieler\ 1),\ 2\ (Spieler\ 2)\r\n
+comment4.params=
+comment4.target=boolean\ istVoll()
+comment4.text=\r\n\ Gibt\ an,\ ob\ das\ Spielfeld\ an\ allen\ Positionen\ belegt\ ist.\r\n\ \r\n\ Hier\ wird\ gelesen\ ob\ jedes\ Feld\ von\ einem\ Spieler\ belegt\ ist\r\n
+numComments=5
